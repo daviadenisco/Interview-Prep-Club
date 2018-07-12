@@ -1,0 +1,45 @@
+/* colors */
+/* names black color: #333333; */
+/* body offwhite background: #f2f2f2; */
+/* navbar dark teal background: #043B4B; */
+/* galvanize logo color: #F58F32; */
+/* galvanize aqua color: #47B6C4; */
+/* galvanize maroon color: #793451; */
+/* galvanize light aqua color: #c5e8ec; */
+
+body {
+  color: #043B4B;
+}
+
+.bg-light {
+  background: #333333 !important;
+}
+
+nav {
+  height: 100px;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 2em;
+  color: #f2f2f2;
+}
+
+#navbarNavAltMarkup > div > a.nav-item.nav-link.active {
+  font-size: 1.25em;
+  color: #f2f2f2;
+}
+
+#navbarNavAltMarkup > div > a:nth-child(2) {
+  color: #f2f2f2;
+}
+
+.jumbotron {
+  background:url('in-ter-view.png');
+  background-size:cover;
+  background-position:left;
+  height: 500px;
+}
+
+.tgipcwy {
+  position: relative;
+}

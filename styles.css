@@ -34,12 +34,17 @@ nav {
 }
 
 .jumbotron {
-  background:url('in-ter-view.png');
+  background:url('intprep2.jpg');
   background-size:cover;
   background-position:left;
   height: 500px;
 }
 
+.home-body {
+  padding: 6em;
+  padding-top: 0;
+}
+
 .tgipcwy {
-  position: relative;
+  vertical-align: middle;
 }

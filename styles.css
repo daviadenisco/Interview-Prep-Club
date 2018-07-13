@@ -13,7 +13,7 @@ body {
 }
 
 .bg-light {
-  background: #333333 !important;
+  background: #043B4B !important;
 }
 
 nav {
@@ -21,8 +21,45 @@ nav {
 }
 
 .navbar-light .navbar-brand {
-  font-size: 2em;
+  /* font-family: 'Roboto', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cinzel', serif;
+  font-family: 'Satisfy', cursive;
+  font-family: 'Cookie', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Caveat', cursive;
+  font-family: 'Monoton', cursive;
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Handlee', cursive;
+  font-family: 'Marck Script', cursive;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Neucha', cursive;
+  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Reenie Beanie', cursive;*/
+  font-family: 'Annie Use Your Telescope', cursive;
+  /* font-family: 'Encode Sans', sans-serif; */
+  /* font-family: 'Waiting for the Sunrise', cursive; */
+  /* font-family: 'Crafty Girls', cursive; */
+  font-size: 2.4em;
   color: #f2f2f2;
+}
+
+.galvanize-logo {
+  margin-left: 10px;
+  margin-right:20px;
+  width: 150px;
+  height: auto;
 }
 
 #navbarNavAltMarkup > div > a.nav-item.nav-link.active {
@@ -32,6 +69,13 @@ nav {
 
 #navbarNavAltMarkup > div > a:nth-child(2) {
   color: #f2f2f2;
+}
+
+div.navbar-nav {
+  /* background: #BAE3CE; */
+  color: white !important;
+  /* align-items: right; */
+  margin-left:500px;
 }
 
 .jumbotron {
@@ -48,27 +92,47 @@ img {
   width: 100%;
 }
 
+button {
+  background: inherit;
+  color: white;
+  border-color: none;
+}
+
 .about-div {
   margin-right: 20px;
   margin-left: -60px;
   text-align: justify;
-  background: #F7F7F7;
+  /* background: #F7F7F7; */
 }
 
 .about {
-
+  font-family: 'Lobster Two', cursive;
+  font-size: 80px;
+  color: #47B6C4;
 }
 
 .mtgs-div {
   margin-left: 100px;
   margin-right: -60px;
-
   text-align: center;
   border: 1px solid #DCDCDC;
+  color: #F7F7F7;
+  background: #F58F32;
+  border-radius: 25px;
 }
 
-.mtgs {
-  padding-top: 40px;
+h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Pacifico', cursive;
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Cookie', cursive; */
+  /* font-family: 'Caveat', cursive; */
+  font-size: 50px;
+  /* letter-spacing: 3px; */
+  /* font-weight: 400; */
 }
 
 div.container.about-mtgs {
@@ -76,7 +140,16 @@ div.container.about-mtgs {
 }
 
 ul.list-group {
+  margin-left: 100px;
+  margin-right: -60px;
   position:relative;
   height:auto;
-  overflow-y: scroll;
+}
+
+.list-group-item {
+  border-right: 1px solid #F58F32;
+  border-left: 1px solid #F58F32;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 25px;
 }

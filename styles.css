@@ -9,6 +9,7 @@
 
 body {
   color: #043B4B;
+  position:relative;
 }
 
 .bg-light {
@@ -37,14 +38,45 @@ nav {
   background:url('intprep2.jpg');
   background-size:cover;
   background-position:left;
+  margin:140px;
+  margin-top: 0;
+  margin-bottom: 0;
   height: 500px;
 }
 
-.home-body {
-  padding: 6em;
-  padding-top: 0;
+img {
+  width: 100%;
 }
 
-.tgipcwy {
-  vertical-align: middle;
+.about-div {
+  margin-right: 20px;
+  margin-left: -60px;
+  text-align: justify;
+  background: #F7F7F7;
+}
+
+.about {
+
+}
+
+.mtgs-div {
+  margin-left: 100px;
+  margin-right: -60px;
+
+  text-align: center;
+  border: 1px solid #DCDCDC;
+}
+
+.mtgs {
+  padding-top: 40px;
+}
+
+div.container.about-mtgs {
+  padding: 0;
+}
+
+ul.list-group {
+  position:relative;
+  height:auto;
+  overflow-y: scroll;
 }

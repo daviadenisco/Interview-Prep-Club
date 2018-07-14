@@ -112,7 +112,7 @@ button {
 }
 
 .mtgs-div {
-  margin-left: 100px;
+  margin-left: 80px;
   margin-right: -60px;
   text-align: center;
   border: 1px solid #DCDCDC;
@@ -140,15 +140,15 @@ div.container.about-mtgs {
 }
 
 ul.list-group {
-  margin-left: 100px;
+  margin-left: 80px;
   margin-right: -60px;
   position:relative;
   height:auto;
 }
 
 .list-group-item {
-  border-right: 1px solid #F58F32;
-  border-left: 1px solid #F58F32;
+  border-right: 1px solid #BAE3CE;
+  border-left: 1px solid #BAE3CE;
   border-top: none;
   border-bottom: none;
   border-radius: 25px;
